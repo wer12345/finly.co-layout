@@ -1,0 +1,8 @@
+#main-header {
+  background-image: url(../images/bg-header.jpg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4taGVhZGVyLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwrQ0FBOEM7RUFDOUMseUJBQXdCO0VBQ3hCLHVCQUFzQjtFQUN0Qiw2QkFBNEI7RUFFNUIsY0FBYSxFQUNkIiwiZmlsZSI6Im1haW4taGVhZGVyLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNtYWluLWhlYWRlciB7XG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCguLi9pbWFnZXMvYmctaGVhZGVyLmpwZyk7XG4gIGJhY2tncm91bmQtcG9zaXRpb246IDUwJTtcbiAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcblxuICBoZWlnaHQ6IDEwMHZoO1xufVxuIl19 */
