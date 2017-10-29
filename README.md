@@ -1,1 +1,2 @@
-# finly.co-layout
+# finly
+Modern Front End Workflow
