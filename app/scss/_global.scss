@@ -28,4 +28,16 @@ body {
 
     }
 
+    .clearfix {
+    
+      &::before, &::after {
+      content: "";
+      clear: both;
+      }
+
+      &::after {
+      display: table;
+      }
+    }
+
 }
