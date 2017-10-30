@@ -20,4 +20,12 @@ body {
   font-size: 36px;
   font-weight: 600;
   color: $c-black;
+
+ @media screen and (max-width: 575px) {
+      margin-top: 15px;
+      font-size: 28px;
+      line-height: 1.2;
+
+    }
+
 }

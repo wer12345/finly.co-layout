@@ -5,51 +5,113 @@
   .list_services {
     margin-top: 80px;
 
+    @media screen and (max-width: 575px) {
+      margin: 0;
+      margin-top: 30px;
+
+    }
+
+
+
     .content { 
       border: 1px solid $c-ef; 
       border-radius: 5px;
       margin: 0 20px;
       transition: all 0.35s ease-in-out;
 
+
       .icon {
-	color: $c-primary;
-	padding: 60px 0;
-	font-size: 56px;
+        color: $c-primary;
+        padding: 60px 0;
+        font-size: 56px;
       }
 
       h4 {
-	color: $c-black;
-	font-size: 20px;
-	font-weight: 600;
-	margin-bottom: 30px;
+        color: $c-black;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 30px;
 
       }
 
       p {
-	padding: 0 25px;
-	margin-bottom: 60px;
+        padding: 0 25px;
+        margin-bottom: 60px;
       }
 
       .fa-long-arrow-right {
-	color: $c-primary;
-	font-size: 25px;
-	margin-bottom: 60px;
-	opacity: 0.35;
+        color: $c-primary;
+        font-size: 25px;
+        margin-bottom: 60px;
+        opacity: 0.35;
 
-	transition: all 0.35s ease-in-out;
+        transition: all 0.35s ease-in-out;
       }
 
       &:hover, &:focus, &:active {
-	margin-top: -10px;
+        margin-top: -10px;
 
-	border-color: rgba(0,0,0,0.02);
-	box-shadow: 0 5px 28px rgba(0,0,0,0.8);
+        border-color: rgba(0,0,0,0.02);
+        box-shadow: 0 5px 28px rgba(0,0,0,0.08);
 
-	.fa-long-arrow-right {
-	  color: $c-primary;
-	  opacity: 1;
-	}
+        .fa-long-arrow-right {
+          color: $c-primary;
+          opacity: 1;
+        }
       }
+
+      @media screen and (max-width: 991px) {
+        margin: 5px;
+
+        .icon {
+          font-size: 45px;
+        }
+
+        p {
+          font-size: 13px;
+          padding: 0 5px;
+        }
+
+        .fa-long-arrow-right {
+          margin-bottom: 25px;
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        margin: 0;
+
+        .icon {
+          font-size: 45px;
+        }
+
+        p {
+          padding: 0 30px;
+        }
+
+      }
+
+      @media screen and (max-width: 575px) {
+        margin: 0 0 30px; 
+
+        .icon {
+          font-size: 45px;
+        }
+
+        h4 {
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-size: 13px;
+          padding: 0 5px;
+        }
+
+        .fa-long-arrow-right {
+          margin-bottom: 25px;
+        }
+      }
+
+
     }
   }
 
@@ -66,5 +128,10 @@
       color: $w;
       background-color: $c-primary;
     }
+  }
+
+  @media screen and (max-width: 575px) {
+  margin-top: 50px;
+  font-size: 30px;
   }
 }
